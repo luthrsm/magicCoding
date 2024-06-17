@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Coding</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <header>
+            <div class="logoDiv">
+                <img src='.\src/img/Magic Coding.png' class="logo" id="logo">
+            </div>
+            <ul class="navigation">
+                <li><a href="#home" class="white">Home</a></li>
+                <li><a href="#" class="blue">Sobre Nós</a></li>
+                <li><a href="#" class="pink">Curso</a></li>
+                <li><a href="#" class="yellow">Palestras</a></li>
+                <li><a href="#" class="yellow">Contato</a></li>
+        </header>
+    </nav>
+
+    <main>
+
+        <div class="home" id="home">
+            <div class="conteudoHome">
+                <h1>magic coding</h1>
+                <p>do ZERO ao FULLSTACK em</p>
+                <span>30 DIAS!</span>
+                <br>
+
+                <button type="button" class="btn-open" onclick="onOpen()">
+                    <p>SIM! Quero Aprender a Programar!</p>
+                </button>
+
+                <div class="trem">
+                    <div class="wrap">
+                        <div class="icon">
+                            <i class="fa-solid fa-lock" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="texto">
+                            <p>CHECKOUT SEGURO</p>
+                        </div>
+                    </div>
+                    <div class="wrap">
+                        <div class="icon">
+                            <i class="fa-solid fa-shield" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="texto">
+                            <p>SATISFAÇÃO GARANTIDA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="imgbackground">
+                <img src="./src/img/Magic Codingw.png" alt="" />
+            </div>
+            <!-- modal -->
+
+            <div class="container">
+                <div class="modal">
+                    <button class="btn-close" onclick="onClose()"> <i class="fa-solid fa-xmark"></i></button>
+                    <h1>GARANTA JÁ SUA VAGA</h1>
+                    <h2>promoção por tempo limitado</h2>
+                    <p class="regressiva"></p>
+
+                    <div class="valor">
+                        <p class="valorAntigo"> de: r$7.176,00</p>
+                        <p class="valorAtual"> por: 12x 19,90</p>
+                    </div>
+
+                    <p id="vagas">vagas limitadas!</p>
+                    <button type="submit" class="btn submit">quero garantir minha vaga!</button>
+                </div>
+            </div>
+        </div>
+        <div class="curso">
+            <div class="imgCurso">
+                <img src="./src/img/imgcurso.jpg" alt="">
+            </div>
+            <div class="conteudoCurso">
+                <h1>SOBRE NOSSO CURSO</h1>
+                <div class="border"></div>
+                <p>Nosso curso de programação do <b>ZERO</b> ao <b>FULLSTACK</b> foi cuidadosamente projetado para
+                    capacitá-lo desde
+                    os
+                    fundamentos básicos até as habilidades avançadas necessárias para se tornar um desenvolvedor
+                    fullstack
+                    confiante e competente.</p>
+                <p>Não importa se você é um iniciante completo ou se já tem alguma experiência na área, nossas aulas
+                    abrangentes e práticas o guiarão em cada etapa do caminho.</p>
+            </div>
+        </div>
+        <div class="habilidades">
+            <h2> através dele você vai</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="conteudoCard">
+                        <h3>fundamentos sólidos</h3>
+                        <p>Começaremos do básico absoluto, ensinando-lhe as linguagens de programação mais essenciais,
+                            os
+                            conceitos fundamentais de desenvolvimento web e como estruturar e organizar seu código de
+                            forma
+                            eficiente.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="conteudoCard">
+                        <h3>Experiência prática</h3>
+                        <p> A teoria é importante, mas a prática é crucial. Com projetos práticos e desafios do mundo
+                            real,
+                            você terá a oportunidade de aplicar o que aprendeu e desenvolver suas habilidades em um
+                            ambiente
+                            real de desenvolvimento.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="conteudoCard">
+                        <h3>Tecnologias atuais</h3>
+                        <p>O mundo da tecnologia está em constante evolução, e nosso curso garante que você esteja
+                            atualizado com as mais recentes tecnologias e ferramentas usadas por desenvolvedores
+                            profissionais em todo o mundo.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="conteudoCard">
+                        <h3>Mentoria especializada</h3>
+                        <p>Nossa equipe de instrutores experientes está aqui para ajudá-lo a cada passo do caminho.
+                            Desde a
+                            resolução de dúvidas até a orientação personalizada, estamos comprometidos em garantir o seu
+                            sucesso.</p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="conteudoCard">
+                        <h3>caminho para o fullstack</h3>
+                        <p>De front-end a back-end, você aprenderá a construir aplicativos completos e dinâmicos,
+                            dominando
+                            não apenas uma, mas várias tecnologias essenciais para se tornar um desenvolvedor fullstack.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="conteudoCard">
+                        <h3>portifólio abrangente</h3>
+                        <p>Desenvolva uma diversidade de projetos práticos, demonstrando suas habilidades adquiridas no
+                            curso e destacando-se frente a empregadores com um portfólio impressionante.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sobrenos">
+            <div class="head">
+                <p>SOBRE</p>
+                <h1>magic coding</h1>
+            </div>
+
+            <p class="conteudo">
+                Por mais de uma década, na Magic Coding, temos sido líderes na formação de talentos na área de
+                tecnologia, fornecendo cursos de programação de alto nível desde 2012. Nossa missão é clara: capacitá-lo
+                para o sucesso na indústria tecnológica. Com uma equipe experiente e abordagem prática de ensino,
+                oferecemos uma ampla gama de cursos abrangentes, desde conceitos fundamentais até as tecnologias mais
+                avançadas do mercado. Seja você um iniciante ou um profissional experiente, nossos métodos comprovados e
+                suporte contínuo garantem que você desenvolva as habilidades e a confiança necessárias para se destacar
+                no competitivo mercado de tecnologia.
+            </p>
+            <p class="conteudo">
+                Junte-se à nossa comunidade e descubra por que somos a escolha preferida de tantos aspirantes a
+                programadores em todo o mundo. Seu futuro na tecnologia começa aqui na Magic Coding - vamos construí-lo
+                juntos!
+            </p>
+
+            <div class="imgbackground">
+                <img src="./src/img/Magic Codingw.png" alt="" />
+            </div>
+        </div>
+
+        <div class="aprender">
+            <h2>Você vai aprender:</h2>
+            <div class="junção">
+                <img src="./src/img/conteudos.png" alt="">
+            </div>
+        </div>
+
+        <div class="salario">
+            <p class="titulo">
+                desenvolvimento web é uma carreira em alta e com um bom <span>salário</span>
+            </p>
+            <div class="charts">
+                <div class="junior">
+                    <p>Júnior</p>
+                    <p class="salarioChart">r$ 3.000/mês</p>
+                    <div class="chart1"></div>
+                </div>
+                <div class="pleno">
+                    <p>pleno</p>
+                    <p class="salarioChart">r$ 6.000/mês</p>
+                    <div class="chart2"></div>
+                </div>
+                <div class="senior">
+                    <p>sênior</p>
+                    <p class="salarioChart">r$ 12.000/mês</p>
+                    <div class="chart3"></div>
+                </div>
+                <div class="imgbackgroundS">
+                    <img src="./src/img/Magic Codingw.png" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <div class="IA">
+            <div class="head">
+                <h1>novidade 2024</h1>
+                <h2>inteligência artificial</h2>
+            </div>
+            <p class="conteudo">
+                Quer se tornar um mestre da Inteligência Artificial e desbravar os horizontes do futuro tecnológico?
+                Prepare-se para a mais emocionante jornada do conhecimento com o nosso NOVO Curso de IA 2024!
+            </p>
+            <p class="conteudo">
+                Na Magic Coding, estamos animados em anunciar nossa mais recente promoção que abrirá as portas para um
+                mundo de possibilidades ilimitadas. Com o nosso curso de IA, você será imerso em um universo de
+                algoritmos inteligentes, aprendizado de máquina avançado e visão de futuro que irá revolucionar a
+                maneira como você vê o mundo.
+            </p>
+        </div>
+
+        <div class="pacote">
+            <h1>pacote</h1>
+            <div class="pacoteContent">
+                <ul>
+                    <li>mais de 3000 aulas</li>
+                    <li>mais de 100 projetos práticos</li>
+                    <li>acesso vitalício</li>
+                    <li>certificados oficiais e válidos</li>
+                    <li>atualizações constantes</li>
+                </ul>
+                <ul>
+                    <li>grupo vip privado para alunos</li>
+                    <li>consultoria disponível</li>
+                    <li>suporte individual</li>
+                    <li>download de projetos</li>
+                    <li>materiais 100% gratuitos</li>
+                </ul>
+
+            </div>
+            <!--arrumar nomes das classes no css-->
+            <div class="promocao">
+                <div class="promocaoContainer">
+                    <h1>GARANTA JÁ SUA VAGA</h1>
+                    <h2>promoção por tempo limitado</h2>
+                    <p class="regressiva" id="countbox1">
+                        <script>
+                            function startTime2() {
+                                var today = new Date();
+                                var h = today.getHours();
+                                var m = today.getMinutes();
+                                var s = today.getSeconds();
+
+                                m = checkTime(m);
+                                s = checkTime(s);
+                                document.getElementById('countbox1').innerHTML = h + ":" + m + ":" + s;
+                                t = setTimeout('startTime2()', 500);
+
+                            }
+
+                            function checkTime(i) {
+                                if (i < 10) {
+                                    i = "0" + i;
+                                }
+                                return i;
+                            }
+
+                            document.write(startTime2());
+                            console.log(startTime2())
+                        </script>
+                    </p>
+
+                    <div class="valor">
+                        <p class="valorAntigo"> de: r$7.176,00</p>
+                        <p class="valorAtual"> por: 12x 19,90</p>
+                    </div>
+
+                    <p id="vagas">vagas limitadas!</p>
+                    <button type="submit" class="btn submit">quero garantir minha vaga!</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="recap">
+            <p class="titulo"> vamos recapitular o que você vai <br>receber assim que se inscrever</p>
+            <div class="cursos">
+                <div class="imgCursos">
+                    <img src="./src/img/cursos.png" alt="">
+                </div>
+                
+            </div>
+
+            <div class="valorEstimado">
+                <p>valor estimado de todos os cursos</p>
+                <p class="valor">R$ 7.176,00</p>
+            </div>
+        </div>
+
+        <div class="depoimentos">
+            <h1>depoimentos</h1>
+            <img class="slideshow" width="1278" height="511">
+        </div>
+
+        <div class="contact">
+            <div class="content">
+                <h1>Contact us</h1>
+                <p class="conteudo">
+                    Conecte-se conosco hoje. Explore cursos, workshops palestras e pergunte mais sobre nossas
+                    iniciativas. Vamos acelerar seu sucesso juntos.
+                </p>
+            </div>
+            <div class="form">
+                <form action="submit">
+                    <input type="text" name="nome" autocomplete="off" id="nome" class="input"/>
+                    <label for="nome" class="label">Nome</label>
+                    <input type="email" name="email" autocomplete="off" id="email" class="input"/>
+                    <label class="label" for="email">Email</label>
+                    <input type="tel" name="tel" id="tel" autocomplete="off" class="input"/>
+                    <label class="label" for="tel" >telefone</label>
+                    <button type="submit">Conecte-se</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>MAGIC CODING – Todos os Direitos Reservados</p>
+        <p>Termos de Uso | Política de Privacidade</p>
+        <p><b>CNPJ</b> 00.000.000/0000-00</p>
+        <p><b>Endereço:</b>Praça MIguel Ortega, 135 - Parque Assunção, Taboão da Serra - SP, 06754-160</p>
+        <p><b>E-mail de suporte:</b> contato@magicoding.com.br</p>
+    </footer>
+
+
+
+    <script src="/src/js/script.js"></script>
+</body>
+
+</html>
