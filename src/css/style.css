@@ -837,3 +837,96 @@ header .navigation li a:hover {
 .input:focus {
     color: #05060fc2;
 }
+
+/*contate-nos*/
+
+.contact {
+    background: var(--gradienteContrario);
+    height: 30rem;
+    display: flex;
+    flex: wrap;
+    margin-top: 2.5rem;
+}
+
+.contact .content {
+    background-color: white;
+    color: var(--azul);
+    position: relative;
+    width: 40%;
+    height: 80%;
+    border-radius: 0px 200px 200px 0px;
+    -webkit-border-radius: 0px 200px 200px 0px;
+    -moz-border-radius: 0px 200px 200px 0px;
+    top: 10%;
+}
+
+.contact .content h1 {
+    font-family: var(--fonte-titulo);
+    margin-top: 15%;
+    margin-left: 10%;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.contact .content .conteudo {
+    font-family: var(--fonte-texto);
+    margin-left: 10%;
+    margin-top: 1.5rem;
+    width: 70%;
+    font-size: 1.35rem;
+}
+
+.contact .form {
+    position: relative;
+    left: 15%;
+    top: 4%;
+    display: flex;
+    flex: wrap;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.input {
+    width: 30rem;
+    height: 44px;
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: 0 1rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.input::placeholder {
+    color: var(--azul);
+    font-family: var(--fonte-texto);
+}
+
+.contact .form .btn-form {
+    border: none;
+    cursor: pointer;
+    background: white;
+    font-family: var(--fonte-titulo);
+    color: var(--azul);
+    font-size: 1.2rem;
+    height: 44px;
+    width: 30%;
+    border-radius: 1.5rem;
+    align-self: center;
+    text-transform: uppercase;
+    margin-left: 7rem;
+}
+
+/*footer*/
+
+.footer {
+    margin-top: 2.5rem;
+    text-align: center;
+    color: var(--roxo);
+}
